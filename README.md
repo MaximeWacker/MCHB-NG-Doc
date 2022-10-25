@@ -2,7 +2,7 @@
 
 
 
-## Current (Legacy Component)
+## Current (Legacy) Component
 ###Shared 
 * Additions
 	* Constants (Analytics / URls / Tokens / etc)
@@ -16,8 +16,9 @@
 **So *Shared* means 'Constants & Misc Helpers'**
 	
 #### Dependencies 
-* Adobe Analytics
+* AEP* Adobe Analytics
 * RxSwift (very tiny depedency : Need little study for dropping impact)
+* RxExt : NOT USED
 		
 ###Core
 * Assemblies (Swinject)
@@ -38,7 +39,7 @@
 	
 /!\ What's ExtensionCore (inside Core ?!)
  
-**So, *Core* means 'Services & Low Level Business Object ** + Some various extensions & helpers
+**So, *Core* means 'Services & Low Level Business Object** (+ Some various extensions & helpers)
 	
 #### Dependencies
 
