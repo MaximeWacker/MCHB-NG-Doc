@@ -21,3 +21,14 @@
 ![./Figures/VIPER_Responsibilities_Boundary_details.pdf](./Figures/VIPER_Responsibilities_Boundary_details.pdf)
 
 For detailed Presentation See [VIPER Responsibilities Descirption](./VIPER.md)
+
+## Multi Modules implementation
+
+![./Figures/NG_Modules_AccountEx.pdf](./Figures/NG_Modules_AccountEx.pdf)
+
+For detailed Presentation See [Dependency Inversion Guided Modularization (TODO)](./Modularization.md)
+
+## Three types of UseCase implementation
+* [Legacy (TODO)](./LeagacyImplementation.md)
+* [VIPER UIKit (TODO)](./ViperUIKitImplementtion.md)
+* [VIPER SwiftUIb(TODO)](./ViperSwiftUIImplementtion.md)
