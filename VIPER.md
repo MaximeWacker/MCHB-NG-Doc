@@ -2,15 +2,14 @@
 
 ## View Layer
 
-
 ### Dependencies 
 * Could be UIKit or SwiftUI (embeded inside UIController)
 
 ### Responsibililies 
-* Emit user interaction to ViewModel (UI events)
-* Display primitive data (String, Int, Or Enum/Struct/Sequence)
+* Emit user interaction to Presenter (UI events)
+* Display primitive data (String, Int, Or Enum/Struct/Sequence) as received from Presenter
 
-## ViewModel
+## Presenter
 
 ### Dependencies 
 * UIBindings (Combine)
@@ -18,11 +17,11 @@
 
 ### Responsibililies 
 * Application Logic - Decide consequence of user action
-	* Requesting/Formating new data to display (to Repository)
-	* Requesting new Navigation Destiation (to Coordinator)
+	* Forwarding user interaction action to business request (to Interactor)
+	* Requesting new Navigation Destination (to Router)
 	
 
-## Repository
+## Interactor
 
 ### Dependencies
 * (Business) Entities 
@@ -30,9 +29,9 @@
 ### Responsibililies 
 * Hides details of WS Requesting or Storage
 * Request raw persistent data (JSON or whatever) reprensented as Value Types only (one request - one Value )
-* Construct Entity (Reference or Value types) from retireved raw 
+* Construct Entity (Reference or Value types) from retireved raw datas
 
-## DataSources 
+## Workers 
 
 ### Dependencies
 * None (Use URLSession Async/Await API)
