@@ -11,8 +11,13 @@
 	2. Allow to develop New Screen with SwiftUI Technology
 	3. Allow to develop New Screen with UIKit Technology but with same undernying component as SwiftUI ones, to ease UIKit->SwiftUI latter migration
 
-### Other (side effects) improvements
+### Other (side effect) improvements
 * Fix Shared & Core Modules sizes, leading to huge build time and Development feedbacks (Previews and unit-tests) 
-* Remove Strong dependency to RX (on new screens)
-* Allow MCHP project to split into MC & HB
+* Remove strong dependency to RX (on new screens)
+* Allow MCHB project to split into MC & HB
 
+## Clean Architecture for iOS : VIPER
+
+![./Figures/VIPER_Responsibilities_Boundary_details.pdf](./Figures/VIPER_Responsibilities_Boundary_details.pdf)
+
+For detailed Presentation See [VIPER Responsibilities Descirption](./VIPER.md)
