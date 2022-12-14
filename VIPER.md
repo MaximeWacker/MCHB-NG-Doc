@@ -1,6 +1,6 @@
 # Architecture Principles
 
-![../Figures/VIPER_Responsibilities_Boundary_details.pdf](./Figures/VIPER_Responsibilities_Boundary_details.pdf)
+![../Figures/VIPER_Responsibilities_Boundary_details.png](./Figures/VIPER_Responsibilities_Boundary_details.png)
 
 ## View Layer
 
